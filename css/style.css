@@ -76,7 +76,7 @@ img {
   overflow: hidden;
 }
 
-.email-left h4{
+.email-left h1{
   margin-bottom: 20px;
 }
 
@@ -120,7 +120,25 @@ img {
   footer{
     max-width: 100vw;
     overflow: hidden;
-    padding: 0 imo !important;
+    padding: 0 !important;
+  }
+
+  footer p{
+    margin-top: 0;
+    text-align: center;
+  }
+
+  footer .container.m-4{
+    margin: 0 !important;
+  }
+
+  footer .container > div{
+    justify-content: center !important;
+  }
+
+  .social-icons{
+    margin: 0;
+    text-align: center;
   }
 }
 
