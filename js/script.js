@@ -72,7 +72,8 @@ const srtop = ScrollReveal({
     origin: 'top',
     distance: '80px',
     duration: 1000,
-    reset: true
+    reset: false,
+    mobile: true
 });
 
 
@@ -82,11 +83,11 @@ srtop.reveal('.home .content p',{delay: 200});
 srtop.reveal('.home .content .btn',{delay: 200}); 
 
 srtop.reveal('.home .image',{delay: 400}); 
-srtop.reveal('.home .linkedin',{interval: 600}); 
-srtop.reveal('.home .github',{interval: 800}); 
-srtop.reveal('.home .twitter',{interval: 1000});
-srtop.reveal('.home .telegram',{interval: 600}); 
-srtop.reveal('.home .instagram',{interval: 600}); 
+srtop.reveal('.home .linkedin',{interval: 200}); 
+srtop.reveal('.home .github',{interval: 200}); 
+srtop.reveal('.home .twitter',{interval: 200});
+srtop.reveal('.home .telegram',{interval: 200}); 
+srtop.reveal('.home .instagram',{interval: 200}); 
 
 function gotowhatsapp(){
     var name = document.querySelector('input[name="name"]').value;
@@ -108,10 +109,10 @@ srtop.reveal('.about .content .resumebtn',{delay: 200});
 
 
 /* SCROLL EDUCATION */
-srtop.reveal('.education .box',{interval: 200}); 
+srtop.reveal('.education .box',{interval: 150}); 
 
 /* SCROLL PROJECTS */
-srtop.reveal('.work .box',{interval: 200}); 
+srtop.reveal('.work .box',{interval: 150}); 
 
 /* SCROLL EXPERIENCE */
 srtop.reveal('.experience .timeline',{delay: 200});
