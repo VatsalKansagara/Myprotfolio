@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Kanit:wght@300;400;500;600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Kanit:wght@300;400;500;600&display=swap");
 
 :root {
   --color-body: #b6cbce;
@@ -98,7 +98,7 @@ img {
     border: 5px solid var(--color-brand);
   } */
 
-  #content-wrapper {
+  /* #content-wrapper {
     margin-left: var(--sidbar-width);
   }
 }
@@ -186,7 +186,7 @@ img {
 }
 
 /* BTN */
-.btn {
+/* .btn {
   padding: 12px 28px;
   font-weight: 700 !important;
 }
@@ -210,10 +210,10 @@ img {
   background-color: var(--color-brand2);
   border: 2px solid var(--color-brand2);
   color: var(--color-base);
-}
+} */
 /* //BTN */
 
-.custom-link {
+/* .custom-link {
   font-weight: 700;
   position: relative;
 }
@@ -278,4 +278,4 @@ img {
     padding-top: 2rem;
     display: block;
   }
-}
+}  */
