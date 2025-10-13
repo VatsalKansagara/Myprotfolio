@@ -445,7 +445,7 @@ header .navbar ul li a:hover{
   }
   .about .row{
     padding: .5rem;
-    margin-bottom: 7rem;
+    margin-bottom: 2rem;
   }
   .about .row .content{
     padding: 1rem;
@@ -534,7 +534,6 @@ header .navbar ul li a:hover{
 /* education section starts */
 .education{
   background: #e5ecfb;
-  min-height: 55vh;
 }
 .education .qoute{
   font-size: 1.5rem;
@@ -894,9 +893,9 @@ header .navbar ul li a:hover{
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
-  .experience{
+  /* .experience{
     min-height: 80vh;
-  }
+  } */
   .experience .timeline{
     margin-top: 2rem;
   }
@@ -1069,9 +1068,9 @@ form .button-area{
 }
 /* contact section media queries starts */
 @media (max-width:900px) {
-  .contact{
+  /* .contact{
     min-height: 70vh;
-  }
+  } */
   .contact .container{
     margin: 3rem 0 2rem 0;
   }
