@@ -107,6 +107,22 @@ srtop.reveal('.about .content p',{delay: 200});
 srtop.reveal('.about .content .box-container',{delay: 200}); 
 srtop.reveal('.about .content .resumebtn',{delay: 200}); 
 
+$(document).ready(function() {
+  $('a[href^="#"]').on('click', function(e) {
+    e.preventDefault();
+
+    var target = this.hash;
+    var $target = $(target);
+
+    var headerHeight = $('header').outerHeight(); 
+
+    $('html, body').animate({
+      scrollTop: $target.offset().top - headerHeight
+    }, 600, 'swing');
+  });
+});
+
+
 
 /* SCROLL EDUCATION */
 srtop.reveal('.education .box',{interval: 150}); 
