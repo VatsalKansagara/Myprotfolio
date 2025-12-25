@@ -1146,6 +1146,9 @@ form .button-area{
   background: rgb(230, 230, 230);
   color: #02094b;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer .box-container .box .share a:hover{
   background: transparent;
