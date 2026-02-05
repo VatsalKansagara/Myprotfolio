@@ -50,7 +50,6 @@ function(){
     }
 });
 
-
 // <!-- typed js effect starts -->
     var typed = new Typed(".typing-text", {
         strings: ["Web Developer"],
